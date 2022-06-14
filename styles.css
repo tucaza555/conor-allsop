@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 1.5em;
+  }
+  
+  body {
+    margin: 30px 20px;
+    font-family: 'Prompt', sans-serif;
+    /*background: #EBE7E7;*/
+  }
+
+  header {
+    width: 100%;
+    height: 50px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    width: 50%;
+  }
+
+  #sub-heading {
+    text-align: center;
+    font-weight: 100;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+  }
+
+ li {
+    list-style: none;
+    padding: 0;
+ }
+
+ footer {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+}
+
+address {
+    text-align: center;
+    padding: 0.3em;
+  }
+
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+  }
+
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+    background: #E0DDDD;
+  }
+
+  .icons {
+    max-width: 30px;
+    padding-top: 6px;
+  }
+  
+  #gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    margin: 50px 300px;
+    gap: 100px;
+  }
+  
+  #gallery img {
+    width: 45%;
+    height: 800px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+  }
+
+  /* Media - changes values based on device sceen width */
+
+  @media (max-width: 1600px) {
+    #gallery {
+      margin: 50px 50px;
+      gap: 70px;
+    }
+
+    #gallery img {
+      width: 45%;
+      height: 700px;
+    }
+  }
+  
+  @media (max-width: 960px) {
+    #gallery {
+      margin: 0px 0px;
+    }
+
+    #gallery img {
+      width: 80%;
+      height: 800px;
+    }
+
+    footer {
+      margin-top: 30px;
+    }
+    
+  }
+
+  @media (max-width: 700px) {
+
+    #gallery img {
+      width: 100%;
+      height: 700px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    header {
+        padding: 0 20px;
+        margin-bottom: 60px;
+    }
+
+    #gallery img {
+      width: 100%;
+      height: 700px;
+    }
+  }
+
+    @media (max-width: 540px) {
+      h1 {
+        font-size: 1.5rem;
+        width: 75%;
+      }
+      
+      nav {
+        height: 150px;
+        width: 20%;
+      }
+
+      header {
+        height: 150px;
+      }
+    
+    }
+
+    @media (max-width: 400px) {
+      #gallery img {
+        width: 100%;
+        height: 480px;
+      }
+    }
+
+    @media (max-width: 300px) {
+      #gallery img {
+        width: 100%;
+        height: 350px;
+      }
+  }
+
+    /* About me page */
+#about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px 400px;
+    background-color: #EBE7E7;
+    text-align: center;
+}
+
+.about-div {
+    width: 50%;
+}
+
+.about-text {
+    margin: 50px 50px 0 50px;
+    height: 85%;
+}
+
+.about-div img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-div ul {
+    text-align: left;
+    line-height: 40px;
+}
