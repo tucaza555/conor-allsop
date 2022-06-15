@@ -228,6 +228,10 @@ address {
       body {
         margin: 10px 20px;
       }
+      
+      header {
+        height: 120px;
+      }
 
       header h1, header nav {
         height: 100%;
@@ -298,6 +302,11 @@ address {
 
 #about-para {
   height: 100%;
+  padding: 30px; 
+}
+
+#about-para {
+  height: 100%;
   padding: 30px;
 }
 
@@ -349,6 +358,8 @@ address {
 
 .about-div ul {
   line-height: 40px;
+  .about-text {
+    font-size: 1.0rem;
 }
 }
 
@@ -361,6 +372,10 @@ address {
     width: 100%;
     background-color: #EBE7E7;
     font-size: 0.5rem;
+}
+
+.about-text {
+  font-size: 0.8rem;
 }
 
 .about-text {
