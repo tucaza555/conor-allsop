@@ -10,14 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div onclick="checkDarkMode()" id="dark-mode">
+      <i class="fa-solid fa-cloud-sun fa-xl" id="icon"></i>
+    </div>
     <header>
       <h1>Conor Allsop</h1>
       <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="https://www.instagram.com/conor_allsop/?hl=en" target="_blank"><img src="icons/instagram.jpg" class="icons"></a></li>
-        </ul>
+          <li><a href="index.html" class="link">Home</a></li>
+          <li><a href="about.html" class="link">About</a></li>
+          <li><a href="https://www.instagram.com/conor_allsop/?hl=en" target="_blank" class="link"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+      </ul>
       </nav>
     </header>
     <h2 id="sub-heading">About Me</h2>
@@ -25,7 +28,7 @@
       <div class="about-div">
         <div class="about-text">
           <h2>ABOUT ME</h2>
-          <p>hi, I'm a local to the Melbourne area and currently studying at university. Very passionate about the outdoors and have a love for animals. have been modelling since 2019 and so far have loved every second of it. if youre interested in me for some model work please contact my agents, regards conor.</p>
+          <p id="about-para">Hi, I'm Conor. I'm a local to the Melbourne area and currently studying at university. I am very passionate about the outdoors and have a profound love for animals. I have been modelling since 2019 and have loved every moment of it. If you are interested in working together please <a href="#footer-title" class="about-underline-link">contact my agents.</a> <br><br>  Regards Conor.</p>
         </div>
       </div>
       <div class="about-div"><img src="img/about1.jpg"></div>
@@ -34,20 +37,31 @@
         <div class="about-text">
           <h2>MEASUREMENTS</h2>
           <ul>
-            <li>Age: 12</li>
-            <li>Height: 12</li>
-            <li>Clothing Size: 12</li>
-            <li>Shoe Size: 12</li>
-            <li>Hair: 12</li>
-            <li>Eye: 12</li>
+            <li>Age: 22</li>
+            <li>Height: 6'1"</li>
+            <li>Chest: 38"</li>
+            <li>Waist: 32"</li>
+            <li>Collar: 15.5"</li>
+            <li>Suit: 40</li>
+            <li>Shoes: 11</li>
+            <li>Hair: Brown</li>
+            <li>Eyes: Hazel</li>
           </ul>
         </div>
       </div>
     </div>
     <footer>
+      <p id="footer-title"><span id="footer-title-start">FRM</span> Management</p>
+      <p>SUITE 7B/10 CLFITON ST, PRAHRAN, VICTORIA 3181</p>
+      <p><strong>tel:</strong> +613 9521 5466 <strong>tel:</strong> +613 9521 4911 <strong>fax:</strong> +613 9521 4375</p>
+      <p><strong>web:</strong> <a href="http://www.frm.com.au/" class="underline link" target="_blank">www.frm.com.au</a>  <strong>email:</strong> <a href="mailto: admin@frm.com.au" class="underline link" target="_blank">admin@frm.com.au</a></p>
+      <br>
+
         <address>
             &copy;2022 by Conor Allsop
         </address>
     </footer>
+    <script src="https://kit.fontawesome.com/8eb669c530.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="dark.js"></script>
   </body>
 </html>

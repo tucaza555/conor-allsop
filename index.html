@@ -10,13 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div onclick="checkDarkMode()" id="dark-mode">
+      <i class="fa-solid fa-cloud-sun fa-xl" id="icon"></i>
+    </div>
     <header>
       <h1>Conor Allsop</h1>
       <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="https://www.instagram.com/conor_allsop/?hl=en" target="_blank"><img src="icons/instagram.jpg" class="icons"></a></li>
+            <li><a href="index.html" class="link">Home</a></li>
+            <li><a href="about.html" class="link">About</a></li>
+            <li><a href="https://www.instagram.com/conor_allsop/?hl=en" target="_blank" class="link"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
         </ul>
       </nav>
     </header>
@@ -38,9 +41,18 @@
       <img src="img/main14.jpg"/>
     </div>
     <footer>
-        <address>
-            &copy;2022 by Conor Allsop
-        </address>
+      <p id="footer-title"><span id="footer-title-start">FRM</span> Management</p>
+      <p>SUITE 7B/10 CLFITON ST, PRAHRAN, VICTORIA 3181</p>
+      <p><strong>tel:</strong> +613 9521 5466 <strong>tel:</strong> +613 9521 4911 <strong>fax:</strong> +613 9521 4375</p>
+      <p><strong>web:</strong> <a href="http://www.frm.com.au/" class="underline link" target="_blank">www.frm.com.au</a>  <strong>email:</strong> <a href="mailto: admin@frm.com.au" class="underline link" target="_blank">admin@frm.com.au</a></p>
+      <br>
+
+
+      <address>
+          &copy;2022 by Conor Allsop
+      </address>
     </footer>
+    <script src="https://kit.fontawesome.com/8eb669c530.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="dark.js"></script>
   </body>
 </html>
