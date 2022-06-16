@@ -351,6 +351,7 @@ address {
       background-color: #EBE7E7;
   }
 
+
   #about-para {
     padding: 10px;
     font-size: 0.8rem;
@@ -358,9 +359,12 @@ address {
 
 .about-div ul {
   line-height: 40px;
-  .about-text {
-    font-size: 1.0rem;
 }
+
+.about-text {
+  font-size: 1.0rem;
+}
+
 }
 
 @media (max-width: 430px) {
